@@ -4,6 +4,7 @@
   "package": "suso.rocayrojo.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "EntityDataMixin",
     "DataCommandMixin"
   ],
   "client": [
