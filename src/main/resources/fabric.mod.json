@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "rocayrojo",
+  "version": "${version}",
+  "name": "RocaYRojo",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/5uso/RocaYRojo"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/rocayrojo/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "suso.rocayrojo.client.RocaYRojoClient"
+    ],
+    "main": [
+      "suso.rocayrojo.RocaYRojo"
+    ]
+  },
+  "mixins": [
+    "rocayrojo.mixins.json"
+  ],
+  "accessWidener": "rocayrojo.accesswidener",
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}
